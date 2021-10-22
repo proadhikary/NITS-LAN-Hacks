@@ -1,5 +1,4 @@
-# Hacks
-This file contains short useful hacks to make computing easier.
+# Python Hacks
 
 ### Concate two row from separate CSV file into one csv file
 ```python
