@@ -1,5 +1,5 @@
 
-##For linux:
+## For linux:
 #### Configure using GUI
 
 Open the network settings and set the your system wide network proxy.
@@ -38,7 +38,7 @@ export http_proxy="http://172.16.199.40:8080/"
 export https_proxy="http://172.16.199.40:8080/"
 ```
 
-##For Windows:
+## For Windows:
 #### Configure using GUI
 Open the network settings and set the proxy and port
 Proxy: 172.16.199.40
