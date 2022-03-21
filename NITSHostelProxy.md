@@ -58,7 +58,7 @@ git config --global http.proxy http://172.16.199.40:8080
 git config --global --get http.proxy
 ```
 
-####For npm
+#### For npm
 ```
 npm config set https-proxy http://172.16.199.20:8080
 npm config set https-proxy http://172.16.199.20:8080
