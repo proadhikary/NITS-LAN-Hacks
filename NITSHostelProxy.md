@@ -5,7 +5,7 @@
 Open the network settings and set the your system wide network proxy.
 Network -> Network proxy -> Configure -> Apply system wide.
 Keep the Socks Host Blank if you want to acess web.whatsapp.com.
-<br><br><br>
+<br>
 
 SERVER: 172.16.199.20
 PORT: 8080
@@ -37,7 +37,7 @@ export https_proxy=http://172.16.199.40:8080/
 export http_proxy="http://172.16.199.40:8080/"
 export https_proxy="http://172.16.199.40:8080/"
 ```
-
+<br><br>
 ## For Windows:
 #### Configure using GUI
 Open the network settings and set the proxy and port
