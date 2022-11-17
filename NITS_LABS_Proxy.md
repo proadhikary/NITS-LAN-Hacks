@@ -6,6 +6,8 @@ Open the network settings and set the your system wide network proxy.
 Network -> Network proxy -> Configure -> Apply system wide.
 Keep the Socks Host Blank if you want to acess web.whatsapp.com.
 
+Explanation: https://medium.com/@krish.raghuram/setting-up-proxy-in-ubuntu-95058da0b2d4
+
 SERVER: 172.16.199.20
 PORT: 8080
 
