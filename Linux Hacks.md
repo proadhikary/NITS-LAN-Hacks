@@ -1,6 +1,9 @@
 # Linux Hacks
 
-### OCR from PDF using TIFF2TXT
+<p>
+<details>
+<summary> <b>### OCR from PDF using TIFF2TXT</b></summary><br/>
+
 1. Install Imagemagic, tesseract.
 ```
 pip install imagemagic
@@ -16,5 +19,6 @@ tesseract filename.tiff eng > outtext //single file
 ```
 for i in *.tif ; do tesseract $i stdout >> outtext;  done; //multiple files
 ```
-
-
+  
+</details>
+</p>
