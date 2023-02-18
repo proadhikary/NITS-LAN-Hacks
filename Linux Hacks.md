@@ -1,8 +1,9 @@
 # Linux Hacks
-
+NB: I keep doing stuffs and post the code snippt here. packages may expire or developers may update the methood. So, try; if failed, debug. Thanks!
+<br>
 <p>
 <details>
-<summary> <b>### OCR from PDF using TIFF2TXT</b></summary><br/>
+<summary> <b>1. OCR from PDF using TIFF2TXT</b></summary><br/>
 
 1. Install Imagemagic, tesseract.
 ```
