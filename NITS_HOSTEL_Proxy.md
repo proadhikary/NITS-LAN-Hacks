@@ -47,6 +47,19 @@ sudo snap set system proxy.http="http://172.16.199.40:8080"
 sudo snap set system proxy.https="http://172.16.199.40:8080"
 ```
 
+#### For git
+```
+git config --global --unset http.proxy
+git config --global http.proxy http://172.16.199.40:8080
+git config --global --get http.proxy
+```
+
+#### For npm
+```
+npm config set http-proxy http://172.16.199.40:8080
+npm config set https-proxy http://172.16.199.40:8080
+```
+
 <br><br>
 ## For Windows:
 #### Configure using GUI
@@ -61,16 +74,3 @@ To change environment variables on Windows:
 3. Select “Environment Variables…”
 4. Press “New…”
 5. Add two variables http_proxy and https_proxy both with the same value: http://172.16.199.40:8080
-
-#### For git
-```
-git config --global --unset http.proxy
-git config --global http.proxy http://172.16.199.40:8080
-git config --global --get http.proxy
-```
-
-#### For npm
-```
-npm config set http-proxy http://172.16.199.40:8080
-npm config set https-proxy http://172.16.199.40:8080
-```
