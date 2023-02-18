@@ -1,5 +1,5 @@
 # Linux Hacks
-NB: I keep doing stuffs and post the code snippt here. packages may expire or developers may update the methood. So, try; if failed, debug. Thanks!
+NB: I keep doing stuffs and post the code snippt here, if I feel the process usefull. packages may expire or developers may update the methood. So, try; if failed, debug. Thanks!
 <br>
 <p>
 <details>
