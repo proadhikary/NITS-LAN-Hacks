@@ -45,3 +45,7 @@ for line in data:
 file.close()
 ```
 
+### Show applications on Left
+```
+gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
+```
