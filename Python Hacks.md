@@ -49,3 +49,31 @@ file.close()
 ```
 gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
 ```
+
+
+###Move file based on filename
+```
+import os
+import shutil
+
+def copy_files(s, d, file_list):
+    for filename in file_list:
+        s_path = os.path.join(s, filename)
+        d_path = os.path.join(d, filename)
+        shutil.copy2(s_path, d_path)
+        print(f"Copied {filename} to (d}")
+
+def main():
+    s = r"/home/pro/Downloads/1K/images"
+    d = r"/home/pro/Downloads/1K/photo"
+    file_list_path = "file.txt"
+
+    with open(file_list_path, 'r') as file:
+        file_list = [line.strip() for line in file]
+
+    copy_files(s, d, file_list)
+
+if __name__ == "__main__":
+    main()
+
+```
